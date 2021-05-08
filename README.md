@@ -28,22 +28,23 @@ Get your api key in your profile
 Xteam api : login to https://api.xteam.xyz
 Get you apikey on your spam email
 ```
+</details>  
 
 Any question? Go to let's report to [me](t.me/Xlaaf)
 
 # Credits
 [Mhankbarbar](https://mhankbarbar.herokuapp.com/api)
-\n
+
 [Lol-human](https://lolhuman.herokuapp.com)
-\n
+
 [Pais](https://pencarikode.xyz)
-\n
+
 [Zeks](https://api.zeks.xyz)
-\n
+
 [Xteam](https://api.xteam.xyz)
-\n
+
 [Zahir](https://zahirr-web.herokuapp.com/api)
-\n
+
 [Hadi](http://hadi-api.herokuapp.com/api)
 
 
