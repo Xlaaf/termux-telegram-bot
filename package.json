@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "telegraf": "^3.32.0"
-    "axios": "^0.21.1"
+    "axios":"^0.21.1"
   }
 }
