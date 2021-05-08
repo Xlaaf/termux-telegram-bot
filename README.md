@@ -2,7 +2,7 @@
 
 </p>
 <p align="center">
-<a href="https://github.com/Xlaaf"><img title="Author" src="https://img.shields.io/badge/Author-MrDevils-orange.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Xlaaf"><img title="Author" src="https://img.shields.io/badge/Author-Xlaaf-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Xlaaf/followers"><img title="Followers" src="https://img.shields.io/github/followers/Xlaaf?color=red&style=flat-square"></a>
