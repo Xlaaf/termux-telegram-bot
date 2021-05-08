@@ -47,8 +47,6 @@ Get you apikey on your spam email
 ```
 </details>  
 
-Any question? Go to let's report to [me](t.me/Xlaaf)
-
 # Credits
 [Mhankbarbar](https://mhankbarbar.herokuapp.com/api)
 
@@ -68,7 +66,9 @@ Any question? Go to let's report to [me](t.me/Xlaaf)
 
 and others I might not mention
 
-** Bot Link:  <a href="https://t.me/kurasawabot" alt="Kurasawa"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Kurasawa-yellow" /> </a>
+* Bot Link:  <a href="https://t.me/kurasawabot" alt="Kurasawa"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Kurasawa-yellow" /> </a>
+* Have A Bug? :  <a href="https://t.me/Xlaaf" alt="Xlaaf"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-SpongebobRobot-yellow" /> </a>
+
 
 ## Features 
 |  MAKER  |                                           YES |
