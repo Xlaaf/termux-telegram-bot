@@ -1,2 +1,0 @@
-telegraf@3
-axios
