@@ -1,6 +1,6 @@
 # Termux Telegram Bot
 
-This is a telegram bot using this library [telegraf](telegraf.js.org)
+This is a telegram bot using this library [telegraf](https://github.com/telegraf/telegraf))
 
 # How To Install ?
  So easy just follow this tutorial!
