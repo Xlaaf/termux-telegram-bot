@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ibb.co/tcSTs36.gif">
+  <img src="https://telegra.ph/file/0a3c725c6f90daaae930c.jpg">
 </p>
 
 ## Termux Telegram Bot
