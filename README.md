@@ -58,11 +58,6 @@ Any question? Go to let's report to [me](t.me/Xlaaf)
 | Text 3d box|✔️|
 | Light text|✔️|
 
-| SimSimi | YES |
-| :-----------------: | :-------: |
-| Simi|✅|
-| Simih|✅|
-
 | MEDIA | YES |
 | :-----------------: | :-------: |
 | Yt Search|✔️|
