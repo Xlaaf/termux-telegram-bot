@@ -67,8 +67,7 @@ Get you apikey on your spam email
 and others I might not mention
 
 * Bot Link:  <a href="https://t.me/kurasawabot" alt="Kurasawa"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Kurasawa-yellow" /> </a>
-* Have A Bug? :  <a href="https://t.me/Xlaaf" alt="Xlaaf"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-SpongebobRobot-yellow" /> </a>
-
+* Have A Bug?: <a  href="https://t.me/Xlaaf" alt="Me"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Me-9cf" /> </a>
 
 ## Features 
 |  MAKER  |                                           YES |
