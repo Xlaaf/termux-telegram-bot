@@ -68,6 +68,8 @@ Any question? Go to let's report to [me](t.me/Xlaaf)
 
 and others I might not mention
 
+** Bot Link:  <a href="https://t.me/kurasawabot" alt="Kurasawa"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Kurasawa-yellow" /> </a>
+
 ## Features 
 |  MAKER  |                                           YES |
 | :---------------------------------------------: | :-----------: |
