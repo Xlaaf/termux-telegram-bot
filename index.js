@@ -2,12 +2,12 @@
 const Telegraf = require('telegraf');
 const axios = require('axios')
                                                                                           
-const bot = new Telegraf('1791149445:AAFvDs0vXo84pK7dxOaKM6R73x5gJr33DUw')
+const bot = new Telegraf('your token bot ')
 
-let lolkey = '2e0da1f78d1721134b21816d'
-let zeks = 'farihdzaky'
+let lolkey = 'apikey lolhuman'
+let zeks = 'apivinz'
 let pais = 'Tester'
-let xteam = '34cc8e499332785f'
+let xteam = 'xteam apikey'
 let zhirr = 'zahirgans'
 
 bot.use((ctx, next) => {
