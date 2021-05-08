@@ -3,12 +3,12 @@
 
 </p>
 <p align="center">
-<a href="https://github.com/Xlaaf"><img title="Author" src="https://img.shields.io/badge/Author-Xlaaf-orange.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Xlaaf"><img title="Author" src="https://img.shields.io/badge/Author-Xlaaf-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/Xlaaf/followers"><img title="Followers" src="https://img.shields.io/github/followers/Xlaaf?color=red&style=flat-square"></a>
+<a href="https://github.com/Xlaaf/followers"><img title="Followers" src="https://img.shields.io/github/followers/Xlaaf?color=green&style=flat-square"></a>
 <a href="https://github.com/Xlaaf/megumikato2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Xlaaf/termux-telegram-bot?color=blue&style=flat-square"></a>
-<a href="https://github.com/Xlaaf/megumikato2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Xlaaf/termux-telegram-bot?color=red&style=flat-square"></a>
+<a href="https://github.com/Xlaaf/megumikato2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Xlaaf/termux-telegram-bot?color=pink&style=flat-square"></a>
 <a href="https://github.com/Xlaaf/megumikato2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Xlaaf/termux-telegram-bot?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="maintened" src="https://img.shields.io/badge/maintained%3F-yes-green.svg?style=flat"></a>
 <a href="#"><img title="repo size" src="https://img.shields.io/github/repo-size/Xlaaf/termux-telegram-bot?style=flat-square"></a>
