@@ -1,2 +1,2 @@
-telegraf
+telegraf@3
 axios
