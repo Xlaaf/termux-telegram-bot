@@ -64,6 +64,9 @@ Any question? Go to let's report to [me](t.me/Xlaaf)
 
 [Hadi](http://hadi-api.herokuapp.com/api)
 
+[Vide Fikri](https://videfikri.com/api)
+
+and others I might not mention
 
 ## Features 
 |  MAKER  |                                           YES |
