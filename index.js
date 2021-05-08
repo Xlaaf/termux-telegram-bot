@@ -218,33 +218,6 @@ bot.command('yta', async (ctx) => {
     }
 })
 
-bot.command('tiktokp', ctx => {
-    let input = ctx.message.text;
-    let inputArray = input.split("tiktokp ");
-    inputArray.shift();
-              message = inputArray;
-              //console.log(inputArray)
-    axios.get('https://api.vhtear.com/tiktokprofile?query='+message+'&apikey=AW62938KK46292gJ73639h')
-    .then(res => {
-         //console.log(res);
-         ctx.replyWithPhoto(res.data.result.picture)
-         ctx.reply(`
-┏━━❉ *TIKTOK* ❉━━━┓
-┣⊱ Nama : ${res.data.result.title}
-┣⊱ Username : ${message}
-┣⊱ Folow : ${res.data.result.follow}
-┣⊱ Follower : ${res.data.result.follower}
-┣⊱ Like : ${res.data.result.like_count}
-┣⊱ Post : ${res.data.result.video_post}
-┣⊱ Verified : ${res.data.result.verified}
-┣⊱ Bio : ${res.data.result.bio}
-┣⊱ Deskripsi : ${res.data.result.description}
-┗━━━━━━━━━━━━━━━━
-         `);
-    }).catch(e => {
-         console.log(e);
-   })
-})
 
 bot.command('ytvideo', async (ctx) => {
     let input = ctx.message.text
