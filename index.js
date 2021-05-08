@@ -1,7 +1,7 @@
 /** @type {typeof import('telegraf').Telegraf} */
 const Telegraf = require('telegraf');
 const axios = require('axios')
-                                                                                          
+// Isi Ini                                                                                         
 const bot = new Telegraf('your token bot ')
 
 let lolkey = 'apikey lolhuman'
@@ -9,7 +9,7 @@ let zeks = 'apivinz'
 let pais = 'Tester'
 let xteam = 'xteam apikey'
 let zhirr = 'zahirgans'
-
+// Sampai sini jangan diutak Atik asal2
 bot.use((ctx, next) => {
   if(ctx.updateSubTypes[0] == "text"){
     console.log("[ @"+ctx.from.username+" ]  User Mengirim Pesan : "+ctx.message.text);
