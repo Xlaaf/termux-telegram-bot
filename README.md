@@ -14,7 +14,7 @@ This is a telegram bot using this library [telegraf](telegraf.js.org)
 # Notes
 
 <details>
-  <summary>Steps to deploy on Heroku </summary>
+  <summary>Read Please </summary>
 
 ```
 Don't forget to change your apikey and bot token 
@@ -32,12 +32,19 @@ Get you apikey on your spam email
 Any question? Go to let's report to [me](t.me/Xlaaf)
 
 # Credits
-[Mhankbarbar](https://mhankbarbar.herokuapp.com/api)\n
-[Lol-human](https://lolhuman.herokuapp.com)\n
-[Pais](https://pencarikode.xyz)\n
-[Zeks](https://api.zeks.xyz)\n
-[Xteam](https://api.xteam.xyz)\n
-[Zahir](https://zahirr-web.herokuapp.com/api)\n
-[Hadi](http://hadi-api.herokuapp.com/api)\n
+[Mhankbarbar](https://mhankbarbar.herokuapp.com/api)
+\n
+[Lol-human](https://lolhuman.herokuapp.com)
+\n
+[Pais](https://pencarikode.xyz)
+\n
+[Zeks](https://api.zeks.xyz)
+\n
+[Xteam](https://api.xteam.xyz)
+\n
+[Zahir](https://zahirr-web.herokuapp.com/api)
+\n
+[Hadi](http://hadi-api.herokuapp.com/api)
+
 
 
