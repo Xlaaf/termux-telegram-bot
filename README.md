@@ -48,4 +48,50 @@ Any question? Go to let's report to [me](t.me/Xlaaf)
 [Hadi](http://hadi-api.herokuapp.com/api)
 
 
+## Features 
+|  MAKER  |                                           YES |
+| :---------------------------------------------: | :-----------: |
+| Nulis|✔️|
+| Epep|✔️|
+| Warzone|✔️|
+| Grafiti|✔️|
+| Text 3d box|✔️|
+| Light text|✔️|
 
+| SimSimi | YES |
+| :-----------------: | :-------: |
+| Simi|✅|
+| Simih|✅|
+
+| MEDIA | YES |
+| :-----------------: | :-------: |
+| Yt Search|✔️|
+| YouTube audio Download|✔️|
+| YouTube Video Downloader|✔️|
+| Tiktok no wm|✔️|
+| Tiktok Music|✔️|
+| Instagram Stalk|✔️|
+| Github Stalk|✔️|
+| Instagram Download|✔️|
+
+| INFORMASI | YES |
+| :-----------------: | :-------: |
+| Brainly|✔️|
+| Jadwal Shalat|✔️|
+| Wikipedia|✔️|
+| Merdeka|✔️|
+| Cuaca|✔️|
+| KBBI|✔️|
+| Quran|✔️|
+| Fakta Unik|✔️|
+
+| Random | YES |
+| :-----------------: | :-------: |
+| Short Url|✔️|
+| Quotes|✔️|
+| Short Tiny Url|✔️|
+
+| MUSIC | YES |
+| :-----------------: | :-------: |
+| Lyrics|✔️|
+| Chord |✔️|
