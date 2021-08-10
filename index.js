@@ -2,14 +2,14 @@
 const Telegraf = require('telegraf');
 const axios = require('axios')
 // Isi Ini                                                                                         
-const bot = new Telegraf('your token bot ')
+const bot = new Telegraf(process.env.token)
 
-let lolkey = 'apikey lolhuman'
-let zeks = 'apivinz'
-let pais = 'Tester'
-let xteam = 'xteam apikey'
+let lolkey = process.env.lolkey,
+let zeks = 'apivinz',
+let pais = 'Tester',
+let xteam = process.env.xteam,
 let zhirr = 'zahirgans'
-// Sampai sini jangan diutak Atik asal2
+
 bot.use((ctx, next) => {
   if(ctx.updateSubTypes[0] == "text"){
     console.log("[ @"+ctx.from.username+" ]  User Mengirim Pesan : "+ctx.message.text);
@@ -18,10 +18,6 @@ bot.use((ctx, next) => {
   }
   next();
 })
-
-bot.hears('hai', (ctx) => ctx.reply('Hai Juga'))
-bot.hears('assalamualaikum', (ctx) => ctx.reply('waalaikumsalam'))
-
 
 bot.command("start", ctx => {
     ctx.reply("Halo "+ctx.from.first_name);
@@ -68,7 +64,7 @@ bot.command('text3dbox', ctx => {
     ctx.replyWithPhoto('http://api.zeks.xyz/api/text3dbox?apikey='+zeks+'&text='+buku2)
 })
 
-bot.command('wikipedia', (ctx) => { 
+bot.command('wiki', (ctx) => { 
     let input = ctx.message.text;
     let inputArray = input.split("wikipedia ");
     inputArray.shift();
@@ -423,6 +419,19 @@ bot.command('igdl', ctx => {
     axios.get('http://lolhuman.herokuapp.com/api/instagram?apikey='+lolkey+'&url='+link)
     .then(res => {
     ctx.replyWithVideo(res.data.result)
+    })
+})
+
+bot.command('google', ctx => {
+    let input = ctx.message.text;
+    ctx.reply('Mohon  Tunggu.....')
+        let inputArray = input.split(" ");
+        inputArray.shift();
+        let link = inputArray.join(" ")
+    const n = axios.get('https://google-api.xlaaf.repl.co/search?q='+link)
+    const o = res.data
+    const g = o[Math.floor(Math.random() * (o.length))]
+    ctx.reply('Ditemukan: '+link+'\n'+g.title+'\nUrl: '+g.link+'\nDesk: '+g.desk)
     })
 })
 
