@@ -19,10 +19,6 @@ bot.use((ctx, next) => {
   next();
 })
 
-bot.hears('hai', (ctx) => ctx.reply('Hai Juga'))
-bot.hears('assalamualaikum', (ctx) => ctx.reply('waalaikumsalam'))
-
-
 bot.command("start", ctx => {
     ctx.reply("Halo "+ctx.from.first_name);
     ctx.reply("Bagaimana Kabar Mu?",
