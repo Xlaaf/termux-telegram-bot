@@ -1,27 +1,12 @@
-/** @type {typeof import('telegraf').Telegraf} */
 const Telegraf = require('telegraf');
-const axios = require('axios')
-// Isi Ini                                                                                         
-const bot = new Telegraf('your token bot ')
+const axios = require('axios')                                                                            
+const bot = new Telegraf('your bot token')
 
-let lolkey = 'apikey lolhuman'
+let lolkey = 'lolkeu'
 let zeks = 'apivinz'
 let pais = 'Tester'
-let xteam = 'xteam apikey'
+let xteam = 'xteamkey'
 let zhirr = 'zahirgans'
-// Sampai sini jangan diutak Atik asal2
-bot.use((ctx, next) => {
-  if(ctx.updateSubTypes[0] == "text"){
-    console.log("[ @"+ctx.from.username+" ]  User Mengirim Pesan : "+ctx.message.text);
-  }else{
-    console.log("[ @"+ctx.from.username+" ]  Bot Mengirim : "+ctx.updateSubTypes[0]);
-  }
-  next();
-})
-
-bot.hears('hai', (ctx) => ctx.reply('Hai Juga'))
-bot.hears('assalamualaikum', (ctx) => ctx.reply('waalaikumsalam'))
-
 
 bot.command("start", ctx => {
     ctx.reply("Halo "+ctx.from.first_name);
@@ -39,7 +24,7 @@ bot.command("start", ctx => {
                         
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 bot.action('menu', ctx => {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-    ctx.reply('──────ᕙᕗ 𝓜𝓮𝓷𝓾 𝓚𝓾𝓻𝓪𝓼𝓪𝔀𝓪 𝓑𝓸𝓽 ᕙᕗ ──────\n\n──────ᕙᕗ 𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉 𝕸𝖊𝖓𝖚 ᕙᕗ ──────\n1./yta (link)\n2./tiktok (link video)\n3./ytsearch (judul)\n4./ytvideo (link)\n5./tiktokmsc (linkvideo)\n6./igdl (link)\n\n──────ᕙᕗ 𝓣𝓮𝔁𝓽 𝓜𝓪𝓴𝓮𝓻 ᕙᕗ ──────\n1./lightext (text)\n2./text3dbox (text)\n3./grafiti (text)\n4./nulis (text)\n5./ff (text)\n6./warzone (text)\n\n──────ᕙᕗ 𝓘𝓷𝓯𝓸𝓻𝓶𝓪𝓼𝓲  ᕙᕗ ──────\n1./wikipedia (pencarian)\n2./kbbi (pencarian)\n3./infogempa\n4./merdeka\n5./fakta\n6./jadwalsholat (kota)\n7./brainly (pencarian)\n8./quran (nomor surah)\n9./cuaca (kota)\n\n──────ᕙᕗ 𝓡𝓪𝓷𝓭𝓸𝓶  ᕙᕗ ──────\n1./shorturl (link)\n2./randomquotes\n3./quotes\n4./lirik (lagu)\n5./chord (lagu)\n6./tinyurl (link)\n\n──────ᕙᕗ 𝓢𝓽𝓪𝓵𝓴 ᕙᕗ ──────\n1./github (username)\n2./igstalk  (username)\n\n/\/\Source Code/\/\\n https://bit.ly/3vOIORq')
+    ctx.editMessageText('──────ᕙᕗ 𝓜𝓮𝓷𝓾 𝓚𝓾𝓻𝓪𝓼𝓪𝔀𝓪 𝓑𝓸𝓽 ᕙᕗ ──────\n\n──────ᕙᕗ 𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉 𝕸𝖊𝖓𝖚 ᕙᕗ ──────\n1./tiktok (link video)\n2./ytsearch (judul)\n3./ytvideo (link)\n5./tiktokmsc (linkvideo)\n6./igdl (link)\n\n──────ᕙᕗ 𝓣𝓮𝔁𝓽 𝓜𝓪𝓴𝓮𝓻 ᕙᕗ ──────\n1./lightext (text)\n2./text3dbox (text)\n3./grafiti (text)\n4./nulis (text)\n5./ff (text)\n6./warzone (text)\n\n──────ᕙᕗ 𝓘𝓷𝓯𝓸𝓻𝓶𝓪𝓼𝓲  ᕙᕗ ──────\n1./wikipedia (pencarian)\n2./kbbi (pencarian)\n3./infogempa\n4./merdeka\n5./fakta\n6./jadwalsholat (kota)\n7./brainly (pencarian)\n8./quran (nomor surah)\n9./cuaca (kota)\n\n──────ᕙᕗ 𝓡𝓪𝓷𝓭𝓸𝓶  ᕙᕗ ──────\n1./shorturl (link)\n2./randomquotes\n3./quotes\n4./lirik (lagu)\n5./chord (lagu)\n6./tinyurl (link)\n\n──────ᕙᕗ 𝓢𝓽𝓪𝓵𝓴 ᕙᕗ ──────\n1./github (username)\n2./igstalk  (username)\n\n/\/\Source Code/\/\\n https://bit.ly/3vOIORq')
 })                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
                                                                                                                                                                                              
@@ -68,7 +53,7 @@ bot.command('text3dbox', ctx => {
     ctx.replyWithPhoto('http://api.zeks.xyz/api/text3dbox?apikey='+zeks+'&text='+buku2)
 })
 
-bot.command('wikipedia', (ctx) => { 
+bot.command('wiki', (ctx) => { 
     let input = ctx.message.text;
     let inputArray = input.split("wikipedia ");
     inputArray.shift();
@@ -101,16 +86,46 @@ bot.command('shorturl', (ctx) => {
    })
 })
 
+bot.command('yta', (ctx) => {
+    ctx.reply('Tunggu.....')
+    let input = ctx.message.text;
+    let inputArray = input.split(" ");
+    inputArray.shift();
+              message = inputArray.join(" ");                                                                                                                                                                 
+    axios.get("https://hadi-api.herokuapp.com/api/ytaudio?url="+message)
+    .then(res => {
+         //console.log(res);
+         ctx.replyWithAudio(res.data.result.download_audio);
+    }).catch(e => {
+         console.log(e);
+   })
+})
+
+bot.command('ytv', (ctx) => {
+    ctx.reply('Tunggu.....')
+    let input = ctx.message.text;
+    let inputArray = input.split(" ");
+    inputArray.shift();
+              message = inputArray.join(" ");                                                                                                                                                                 
+    axios.get("https://hadi-api.herokuapp.com/api/ytvideo?url="+message)
+    .then(res => {
+         //console.log(res);
+         ctx.replyWithVideo(res.data.result.download_video);
+    }).catch(e => {
+         console.log(e);
+   })
+})
+
 bot.command('tiktok', (ctx) => {
     ctx.reply('Proses.....')
     let input = ctx.message.text;
     let inputArray = input.split("tiktok ");
     inputArray.shift();
               message = inputArray.join(" ");                                                                                                                                                                 
-    axios.get('http://lolhuman.herokuapp.com/api/tiktok?apikey='+lolkey+'&url='+message)
+    axios.get('https://api.xteam.xyz/dl/tiktok?url='+message+'&APIKEY='+xteam)
     .then(res => {
          //console.log(res);
-         ctx.replyWithVideo(res.data.result.link);
+         ctx.replyWithVideo(res.data.server_1);
     }).catch(e => {
          console.log(e);
    })
@@ -169,10 +184,10 @@ bot.command('kbbi', (ctx, args) => {
           message = inputArray.join(" ");
 
     //console.log
-    axios.get('https://mnazria.herokuapp.com/api/kbbi?search='+message)
+    axios.get('https://kbbi-api.xlaaf.repl.co/search?kata='+message)
     .then(res => {
         //console.log(res.data.search);
-        ctx.reply("Ditemukan : \n"+res.data.result)
+        ctx.reply("Kata: "+res.data.data.title+"\nDitemukan : "+res.data.data.arti)
     })
 }) 
 
@@ -184,72 +199,6 @@ bot.command('nulis', (ctx) => {
         //console.log(message)                                                                                                                                                                                                       
         ctx.replyWithPhoto('http://api.zeks.xyz/api/nulis?text='+fgah+'&apikey='+zeks)
 })                                                                                                 
-
-bot.command('yta', async (ctx) => {
-    let input = ctx.message.text
-    let inputArray = input.split(" ")
-    let message = "";
-    
-    if(inputArray.length == 1){
-        message = "Tolong Kasih Link Yang Benar, contoh /yta http://www.youtube.com/watch?v=GwaRztMaoY0"
-        ctx.reply(message)
-    } else{
-        inputArray.shift();                                                                                                      
-        messager = inputArray.join(" ")                                                                                                                                                                               
-        const date = await axios.get (`http://lolhuman.herokuapp.com/api/ytaudio?apikey=`+lolkey+`&url=`+messager)
-        const data = date.data.result
-        if(!data){
-            ctx.reply(`Musik tidak ditemukan`)
-        }else{                                                                                         
-        ctx.replyWithPhoto({url: data.thumbnail}, {caption: `──────ᕙᕗ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉ᕙᕗ ──────
-        
-ᕗᕙ Judul: ${data.title}
-ᕗᕙ Pengunggah: ${data.uploader}
-ᕗᕙ Durasi ${data.duration}
-ᕗᕙ Penonton: ${data.view}
-ᕗᕙ Penyuka: ${data.like}
-ᕗᕙ Pembenci: ${data.dislike}
-ᕗᕙ Ukuran: ${data.link[0].size}
-        `})                                                                                                                                                                                    
-        if (Number(data.link[0].size.split(` MB`)[0]) >= 30.00) return ctx.reply(`Maaf, Maksimal hanya 30mb saja`)
-        // console.log(data.link[0].link)
-        ctx.replyWithAudio({ url: data.link[0].link}, {title: data.title, thumb: data.thumbnail, artist: data.title})
-        } 
-    }
-})
-
-
-bot.command('ytvideo', async (ctx) => {
-    let input = ctx.message.text
-    let inputArray = input.split(" ")
-    let message = "";
-    
-    if(inputArray.length == 1){
-        message = "Tolong Sertakan Link, Contoh /ytvideo https://www.youtube.com/watch?v=U5TkJ2HhMEw&list=RDen9KJdbrZj0&index=27"
-        ctx.reply(message)
-    } else{                                                                                                                  
-        inputArray.shift();
-        messager = inputArray.join(" ")
-        const date = await axios.get ('http://lolhuman.herokuapp.com/api/ytvideo?apikey='+lolkey+'&url='+messager)
-        const data = date.data.result
-        if(!data){
-            ctx.reply(`Music not found`)
-        }else{
-        ctx.replyWithPhoto({url: data.thumbnail}, {caption: ` ──────ᕙᕗ 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 ᕙᕗ ──────
-                                                                                                          
-❖ Judul: ${data.title}
-❖ Pengunggah: ${data.uploader}
-❖ Durasi: ${data.duration}
-❖ Penonton: ${data.view}
-❖ Penyuka: ${data.like}
-❖ Pembenci: ${data.dislike}
-        `})
-        if (Number(data.link[0].size.split(` MB`)[0]) >= 100.00) return ctx.reply(`Sorry the bot cannot send more than 25 MB!`)
-        // console.log(data.link[0].link)
-        ctx.replyWithVideo({url: data.link[0].link})
-        } 
-    }
-})
 
 bot.command('ytsearch', async (ctx) => {
     let input = ctx.message.text
@@ -377,7 +326,7 @@ bot.command('tiktokmsc', async (ctx) => {
         inputArray.shift();
         messager = inputArray.join(" ")
         try{                                                                                                                                 
-        ctx.replyWithAudio({url: `http://lolhuman.herokuapp.com/api/tiktokmusic?apikey=`+lolkey+`&url=`+messager}, {title: '@kurasawabot'})
+        ctx.replyWithAudio({url: `https://lolhuman.herokuapp.com/api/tiktokmusic?apikey=`+lolkey+`&url=`+messager}, {title: '@kurasawabot'})
         }catch(e){
             ctx.reply(`Link tidak ditemukan`)
         }
@@ -390,10 +339,10 @@ bot.command('lirik', (ctx) => {
     inputArray.shift();
               message = inputArray.join(" ");
 
-    axios.get('https://videfikri.com/api/liriklagu/?query='+message)
+    axios.get('https://lyrics-api.xlaaf.repl.co/search?q='+message)
     .then(res => {
          //console.log(res);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-             ctx.reply(`ᕙᕗ Judul: ${res.data.result.title}\n\nᕙᕗ Artis: ${res.data.result.artist}\n\nᕙᕗ Lirik : ${res.data.result.lirik}\n\n`)
+             ctx.reply(`ᕙᕗ Found Lyrics: ${res.data.data}`)
     }).catch(e => {
          console.log(e);
    })
@@ -420,11 +369,24 @@ bot.command('igdl', ctx => {
         let inputArray = input.split(" ");
         inputArray.shift();
         let link = inputArray.join(" ")
-    axios.get('http://lolhuman.herokuapp.com/api/instagram?apikey='+lolkey+'&url='+link)
+    axios.get('https://lolhuman.herokuapp.com/api/instagram?apikey='+lolkey+'&url='+link)
     .then(res => {
     ctx.replyWithVideo(res.data.result)
     })
 })
+
+bot.command('google', ctx => {
+    let input = ctx.message.text;
+    ctx.reply('Mohon  Tunggu.....')
+        let inputArray = input.split(" ");
+        inputArray.shift();
+        let link = inputArray.join(" ")
+    axios.get('https://google-api.xlaaf.repl.co/search?q='+link).then(res => {
+    const linke = res.data.data
+    const g = linke[Math.floor(Math.random() * (linke.length))]
+    ctx.reply('Ditemukan: '+link+'\n'+g.title+'\nUrl: '+g.link+'\nDesk: '+g.desk)
+    })
+  })
 
 bot.command('ff', async (ctx) => {
     let input = ctx.message.text
