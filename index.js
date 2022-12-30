@@ -2,7 +2,7 @@
 const Telegraf = require('telegraf');
 const axios = require('axios')
 // Isi Ini                                                                                         
-const bot = new Telegraf(process.env.token)
+const bot = new Telegraf(5879996148:AAHmvD6HVI50-ji3xKCjcuTFtLGeiZALwfQ)
 
 let lolkey = process.env.lolkey,
 let zeks = 'apivinz',
